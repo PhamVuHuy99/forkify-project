@@ -22,7 +22,7 @@ const controlRecipes = async function () {
   try {
     // Rendering Spinner
     const id = window.location.hash.slice(1);
-    recipeView.renderSpinner();
+    // recipeView.renderSpinner();
 
     // 0, Update results view to mark selected search result
     resultsView.update(model.getSearchResultsPage());
